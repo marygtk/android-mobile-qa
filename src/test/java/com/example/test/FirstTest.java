@@ -42,7 +42,7 @@ public class FirstTest extends BaseSetUp {
         //Close new flow instructions
         locators.closeInstructions(driver, wait);
 
-        //move flow up
+        //MOVE "FLOW" ITEM UP
         WebElement flowElement = driver.findElement(AppiumBy.id("com.llamalab.automate:id/center"));
         Utils.swipeUpMethod(driver, flowElement);
 
